@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[在GitHub上搭建自己的博客网站]]></title>
+    <url>%2F2019%2F09%2F29%2F%E5%9C%A8GitHub%E4%B8%8A%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%2F</url>
+    <content type="text"><![CDATA[1.工具准备node.js、GitHub账号以及一个可以用的顺手的文件编辑器（因为要修改一些配置文件）node.js安装好后在命令行键入： node.js -v 来检测环境是否安装完成。 2.安装hexo博客框架命令行键入： npm install -g hexo-cli 安装完成之后确保环境变量配置正确，可以正常使用’hexo’命令。 3.开始搭建，初始化项目首先命令行转到你要建立项目的磁盘，然后键入： hexo init {projectname} 现在目标磁盘就有了刚才我们新建的项目文件夹，进入项目根目录输入： hexo generate 对hexo编译成HTML代码，然后输入： hexo server 现在项目就运行起来了，打开输出的本地网址就能看到项目运行的效果了。]]></content>
+      <categories>
+        <category>实战篇</category>
+      </categories>
+      <tags>
+        <tag>github,web,博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[今天开始了]]></title>
+    <url>%2F2019%2F09%2F28%2Ftest%2F</url>
+    <content type="text"><![CDATA[第一次还算完整的做了一个小项目，用的还是纯前端框架emmm~。中间也遇到了不少小坑，不过都一一解决完了。明天整理一下发上来。晚安！]]></content>
+      <categories>
+        <category>心得体会</category>
+      </categories>
+      <tags>
+        <tag>开始</tag>
+        <tag>实战</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F27%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
