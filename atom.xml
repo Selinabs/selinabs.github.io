@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-29T14:39:40.511Z</updated>
+  <updated>2019-09-29T15:04:26.560Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="http://yoursite.com/2019/09/29/Welcome/"/>
+    <id>http://yoursite.com/2019/09/29/Welcome/</id>
+    <published>2019-09-29T14:55:01.000Z</published>
+    <updated>2019-09-29T15:04:26.560Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="./images/7914235d3947665b9f91e39a500a20c8.jpg" alt="enter description here"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;./images/7914235d3947665b9f91e39a500a20c8.jpg&quot; alt=&quot;enter description here&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="welcome pages" scheme="http://yoursite.com/tags/welcome-pages/"/>
+    
+  </entry>
   
   <entry>
     <title>在GitHub上搭建自己的博客网站</title>
@@ -44,8 +69,8 @@
   
   <entry>
     <title>今天开始了</title>
-    <link href="http://yoursite.com/2019/09/28/test/"/>
-    <id>http://yoursite.com/2019/09/28/test/</id>
+    <link href="http://yoursite.com/2019/09/28/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2019/09/28/今天开始/</id>
     <published>2019-09-28T15:34:25.000Z</published>
     <updated>2019-09-28T16:21:10.791Z</updated>
     
