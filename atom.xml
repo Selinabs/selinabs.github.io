@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-29T14:07:29.761Z</updated>
+  <updated>2019-09-29T14:39:40.511Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/09/29/%E5%9C%A8GitHub%E4%B8%8A%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/"/>
     <id>http://yoursite.com/2019/09/29/在GitHub上搭建自己的博客网站/</id>
     <published>2019-09-29T13:24:14.000Z</published>
-    <updated>2019-09-29T14:07:29.761Z</updated>
+    <updated>2019-09-29T14:39:40.511Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="1-工具准备"><a href="#1-工具准备" class="headerlink" title="1.工具准备"></a>1.工具准备</h5><p>node.js、GitHub账号以及一个可以用的顺手的文件编辑器（因为要修改一些配置文件）<br>node.js安装好后在命令行键入：</p><pre><code>            node.js -v</code></pre><p>来检测环境是否安装完成。</p><h5 id="2-安装hexo博客框架"><a href="#2-安装hexo博客框架" class="headerlink" title="2.安装hexo博客框架"></a>2.安装hexo博客框架</h5><p>命令行键入：</p><pre><code>            npm  install -g hexo-cli</code></pre><p>安装完成之后确保环境变量配置正确，可以正常使用’hexo’命令。</p><h5 id="3-开始搭建，初始化项目"><a href="#3-开始搭建，初始化项目" class="headerlink" title="3.开始搭建，初始化项目"></a>3.开始搭建，初始化项目</h5><p>首先命令行转到你要建立项目的磁盘，然后键入：</p><pre><code>            hexo init {projectname}</code></pre><p>现在目标磁盘就有了刚才我们新建的项目文件夹，进入项目根目录输入：</p><pre><code>            hexo generate</code></pre><p>对hexo编译成HTML代码，然后输入：</p><pre><code>            hexo server</code></pre><p>现在项目就运行起来了，打开输出的本地网址就能看到项目运行的效果了。<br><img src="./images/Snipaste_2019-09-29_22-01-49.png" alt="enter description here"></p>]]></content>
+    <content type="html"><![CDATA[<h5 id="1-工具准备"><a href="#1-工具准备" class="headerlink" title="1.工具准备"></a>1.工具准备</h5><p>node.js、GitHub账号以及一个可以用的顺手的文件编辑器（因为要修改一些配置文件）<br>node.js安装好后在命令行键入：</p><pre><code>            npm -v</code></pre><p>来检测环境是否安装完成。</p><h5 id="2-安装hexo博客框架"><a href="#2-安装hexo博客框架" class="headerlink" title="2.安装hexo博客框架"></a>2.安装hexo博客框架</h5><p>命令行键入：</p><pre><code>            npm  install -g hexo-cli</code></pre><p>安装完成之后确保环境变量配置正确，可以正常使用’hexo’命令。</p><h5 id="3-开始搭建，初始化项目"><a href="#3-开始搭建，初始化项目" class="headerlink" title="3.开始搭建，初始化项目"></a>3.开始搭建，初始化项目</h5><p>首先命令行转到你要建立项目的磁盘，然后键入：</p><pre><code>            hexo init {projectname}</code></pre><p>现在目标磁盘就有了刚才我们新建的项目文件夹，进入项目根目录输入：</p><pre><code>            hexo generate</code></pre><p>对hexo编译成HTML代码，然后输入：</p><pre><code>            hexo server</code></pre><p>现在项目就运行起来了，打开输出的本地网址就能看到项目运行的效果了。<br><img src="./images/Snipaste_2019-09-29_22-01-49.png" alt="enter description here"></p>]]></content>
     
     <summary type="html">
     
