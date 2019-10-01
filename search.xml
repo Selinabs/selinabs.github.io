@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Center OS安装python3]]></title>
+    <url>%2F2019%2F10%2F01%2Fcenteros%E5%AE%89%E8%A3%85py3%2F</url>
+    <content type="text"><![CDATA[1.安装依赖登陆到服务器后输入： python --version 查看现在系统默认的安装的python版本，然后输入： sudo yum -y install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel zlib-devel libffi-devel MySQL-python mysql-devel 回车开始安装。 2.下载python安装包首先在用户目录下新建一个文件夹： mkdir {folder name} 进入新建的文件夹下，输入： wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz 回车开始下载，文件比较大，网络速度可能也比较慢，所以需要等一会。 3.安装python先解压缩下载好的tgz文件，输入： tar -zxvf {packagename} 回车开始解压。解压好之后当前文件夹下回有一个新的文件夹，cd进入新的文件夹： cd {new folder name} 然后指定python3的安装路径： ./configure --prefix={path} 回车后系统会自动设置，完成后接着输入： make make是一个编译命令，编译完成后输入： sudo make install 进行安装。 4.添加系统变量添加python系统变量输入： sudo ln -s {user python path} /usr/bin/python3 回车完成添加。然后还需要添加pip3系统变量： sudo ln -s {user pip3 path} /usr/bin/pip3 回车完成添加。到此为止，python3已经安装完成，可以进行开发和使用了。]]></content>
+      <categories>
+        <category>基础篇</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>center OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Welcome]]></title>
     <url>%2F2019%2F09%2F29%2FWelcome%2F</url>
     <content type="text"><![CDATA[]]></content>

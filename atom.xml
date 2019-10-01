@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-29T15:04:26.560Z</updated>
+  <updated>2019-10-01T06:30:54.598Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Center OS安装python3</title>
+    <link href="http://yoursite.com/2019/10/01/centeros%E5%AE%89%E8%A3%85py3/"/>
+    <id>http://yoursite.com/2019/10/01/centeros安装py3/</id>
+    <published>2019-10-01T05:36:11.571Z</published>
+    <updated>2019-10-01T06:30:54.598Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="1-安装依赖"><a href="#1-安装依赖" class="headerlink" title="1.安装依赖"></a>1.安装依赖</h5><p>登陆到服务器后输入：</p><pre><code>        python --version</code></pre><p>查看现在系统默认的安装的<strong>python</strong>版本，然后输入：</p><pre><code>        sudo yum -y install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel zlib-devel libffi-devel MySQL-python mysql-devel</code></pre><p>回车开始安装。</p><h5 id="2-下载python安装包"><a href="#2-下载python安装包" class="headerlink" title="2.下载python安装包"></a>2.下载<strong>python</strong>安装包</h5><p>首先在用户目录下新建一个文件夹：</p><pre><code>        mkdir {folder name}</code></pre><p>进入新建的文件夹下，输入：</p><pre><code>        wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz</code></pre><p>回车开始下载，文件比较大，网络速度可能也比较慢，所以需要等一会。</p><h5 id="3-安装python"><a href="#3-安装python" class="headerlink" title="3.安装python"></a>3.安装python</h5><p>先解压缩下载好的<strong>tgz</strong>文件，输入：</p><pre><code>        tar -zxvf {packagename}</code></pre><p>回车开始解压。解压好之后当前文件夹下回有一个新的文件夹，<strong>cd</strong>进入新的文件夹：</p><pre><code>        cd {new folder name}</code></pre><p>然后指定python3的安装路径：</p><pre><code>        ./configure --prefix={path}</code></pre><p>回车后系统会自动设置，完成后接着输入：</p><pre><code>            make</code></pre><p>make是一个编译命令，编译完成后输入：</p><pre><code>            sudo make install</code></pre><p>进行安装。</p><h5 id="4-添加系统变量"><a href="#4-添加系统变量" class="headerlink" title="4.添加系统变量"></a>4.添加系统变量</h5><p>添加<strong>python</strong>系统变量输入：</p><pre><code>        sudo ln -s {user python path} /usr/bin/python3</code></pre><p>回车完成添加。然后还需要添加<strong>pip3</strong>系统变量：</p><pre><code>        sudo ln -s {user pip3 path} /usr/bin/pip3</code></pre><p>回车完成添加。<br>到此为止，python3已经安装完成，可以进行开发和使用了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;1-安装依赖&quot;&gt;&lt;a href=&quot;#1-安装依赖&quot; class=&quot;headerlink&quot; title=&quot;1.安装依赖&quot;&gt;&lt;/a&gt;1.安装依赖&lt;/h5&gt;&lt;p&gt;登陆到服务器后输入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;        python --version
+&lt;/c
+      
+    
+    </summary>
+    
+    
+      <category term="基础篇" scheme="http://yoursite.com/categories/%E5%9F%BA%E7%A1%80%E7%AF%87/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="center OS" scheme="http://yoursite.com/tags/center-OS/"/>
+    
+  </entry>
   
   <entry>
     <title>Welcome</title>
